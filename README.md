@@ -1,4 +1,3 @@
-```markdown
 # 🖼️ Object Insertion Dataset Builder (Inpainting + Filtering)
 
 This repository provides a modular pipeline to **create datasets for object insertion tasks** 
@@ -18,7 +17,6 @@ but the design allows easy integration of other models (e.g., Stable Diffusion I
 ---
 
 ## 📂 Repository Structure
-```
 
 object-insertion-dataset/
 │
@@ -58,8 +56,6 @@ object-insertion-dataset/
 │   └── metrics.py
 │
 └── tests/
-
-````
 
 ---
 
@@ -172,5 +168,3 @@ pytest tests/
 * [ ] Add CLIP-based semantic filtering
 * [ ] Add Dockerfile for reproducibility
 
----không?
-```
