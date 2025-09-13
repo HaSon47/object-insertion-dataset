@@ -16,49 +16,6 @@ but the design allows easy integration of other models (e.g., Stable Diffusion I
 
 ---
 
-## 📂 Repository Structure
-
-object-insertion-dataset/
-│
-├── README.md
-├── requirements.txt
-├── config.yaml
-│
-├── data/
-│   ├── raw/            # Input images + masks
-│   ├── processed/      # Preprocessed images (optional)
-│   ├── inpainted/      # Output after inpainting
-│   └── filtered/       # Final dataset after filtering
-│
-├── models/
-│   ├── base\_model.py   # Abstract base class
-│   ├── lama/           # LaMa wrapper
-│   └── sd\_inpainting/  # (Example) Stable Diffusion wrapper
-│
-├── filters/
-│   ├── manual\_filter.py
-│   ├── auto\_quality.py
-│   └── clip\_filter.py
-│
-├── pipelines/
-│   ├── inpaint\_pipeline.py
-│   ├── filter\_pipeline.py
-│   └── full\_pipeline.py
-│
-├── scripts/
-│   ├── run\_inpainting.py
-│   ├── run\_filter.py
-│   └── build\_dataset.py
-│
-├── utils/
-│   ├── io\_utils.py
-│   ├── visualization.py
-│   └── metrics.py
-│
-└── tests/
-
----
-
 ## ⚙️ Installation
 
 ```bash
